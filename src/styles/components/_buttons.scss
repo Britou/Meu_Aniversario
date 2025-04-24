@@ -1,0 +1,31 @@
+@use '../variables';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 40px;
+    box-shadow: -2px 1px variables.$aqua;
+    cursor: pointer;
+    padding: 12px 60px;
+    margin-right: 80px;
+
+    &--primary {
+        background-color: variables.$purple;
+        color: variables.$aqua;
+    }
+
+    @media (max-width: 640px) {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+    }
+}
