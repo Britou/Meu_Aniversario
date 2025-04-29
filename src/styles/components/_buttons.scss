@@ -8,20 +8,21 @@
     text-align: center;
     white-space: nowrap;
     border-radius: 40px;
-    box-shadow: -2px 1px variables.$aqua;
+    box-shadow: -2px 1px variables.$orange;
     cursor: pointer;
     padding: 12px 60px;
     margin-right: 80px;
 
     &--primary {
-        background-color: variables.$purple;
-        color: variables.$aqua;
+        background-color: variables.$darkGray;
+        color: variables.$orange;
     }
 
     @media (max-width: 640px) {
         display: flex;
         width: 100%;
         align-items: center;
+        justify-content: center;
     }
 
     @media (max-width: 1024px) {

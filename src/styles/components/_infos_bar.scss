@@ -5,12 +5,14 @@
     background-color: variables.$secondaryTextColor;
     display: flex;
     justify-content: space-between;
-    box-shadow: -2px 1px aqua;
+    box-shadow: -2px 1px variables.$orange;
     border-radius: 20px 50px 20px 50px;
 
     &__infos {
         display: flex;
         gap: 40px;
+        margin-right: 20px;
+
 
         &__item {
             font-size: 16px;
